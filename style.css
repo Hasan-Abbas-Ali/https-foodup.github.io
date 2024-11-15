@@ -251,6 +251,13 @@ ul li a:hover {
   justify-content: space-between;
 }
 
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  gap: 20px;
+}
+
 /* ANIMATION */
 
 @keyframes anim_right {
