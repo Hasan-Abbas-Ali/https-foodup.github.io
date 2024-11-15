@@ -338,6 +338,12 @@ ul li a:hover {
   animation: anim_videoPlay 1s ease-in-out 0s infinite normal forwards;
 }
 
+.about_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
 /* ANIMATION */
 
 @keyframes anim_right {
