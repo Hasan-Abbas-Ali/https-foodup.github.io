@@ -245,6 +245,12 @@ ul li a:hover {
   display: none;
 }
 
+/* ABOUT SECTION */
+
+.about {
+  justify-content: space-between;
+}
+
 /* ANIMATION */
 
 @keyframes anim_right {
