@@ -322,6 +322,22 @@ ul li a:hover {
   transform: translate(-50%, -50%);
 }
 
+.about_img span {
+  position: relative;
+}
+
+.about_img span::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90px;
+  height: 90px;
+  border-radius: 100%;
+  animation: anim_videoPlay 1s ease-in-out 0s infinite normal forwards;
+}
+
 /* ANIMATION */
 
 @keyframes anim_right {
