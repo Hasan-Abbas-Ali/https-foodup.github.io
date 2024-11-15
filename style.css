@@ -312,6 +312,11 @@ ul li a:hover {
   filter: grayscale(0);
 }
 
+.about_img i {
+  font-size: 5rem;
+  color: var(--white-color);
+}
+
 /* ANIMATION */
 
 @keyframes anim_right {
