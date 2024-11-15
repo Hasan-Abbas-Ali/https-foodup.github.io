@@ -309,6 +309,7 @@ ul li a:hover {
   transition: all 0.3s;
   cursor: pointer;
   position: relative;
+  margin-top: 150px;
 }
 
 .about_img:hover {
@@ -330,6 +331,10 @@ ul li a:hover {
 
 .about_img span::after {
   content: "";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   /* position: absolute;
   top: 50%;
   left: 50%;
