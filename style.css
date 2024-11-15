@@ -258,6 +258,10 @@ ul li a:hover {
   gap: 20px;
 }
 
+.about_content h2 {
+  font-family: var(--satisfy);
+}
+
 /* ANIMATION */
 
 @keyframes anim_right {
