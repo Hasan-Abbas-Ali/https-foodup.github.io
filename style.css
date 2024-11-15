@@ -286,6 +286,7 @@ ul li a:hover {
 
 .check_task {
   display: flex;
+  flex-direction: column;
 }
 
 /* ANIMATION */
