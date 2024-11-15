@@ -281,6 +281,11 @@ ul li a:hover {
 
 .check_task .q1 i {
   color: var(--prime-color);
+  font-size: 30px;
+}
+
+.check_task {
+  display: flex;
 }
 
 /* ANIMATION */
