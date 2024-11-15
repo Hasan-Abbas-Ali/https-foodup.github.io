@@ -279,6 +279,10 @@ ul li a:hover {
   font-weight: 500;
 }
 
+.check_task .q1 i {
+  color: var(--prime-color);
+}
+
 /* ANIMATION */
 
 @keyframes anim_right {
