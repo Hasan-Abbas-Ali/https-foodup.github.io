@@ -297,6 +297,10 @@ ul li a:hover {
   cursor: pointer;
 }
 
+.play {
+  margin-bottom: 20px;
+}
+
 .about_img {
   border-radius: 50px;
   width: 50%;
