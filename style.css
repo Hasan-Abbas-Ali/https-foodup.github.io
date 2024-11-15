@@ -331,12 +331,12 @@ ul li a:hover {
 
 .about_img span::after {
   content: "";
-  /* position: absolute;
+  position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%); */
-  width: 90px;
-  height: 90px;
+  transform: translate(-50%, -50%);
+  width: 150px;
+  height: 150px;
   border-radius: 100%;
   animation: anim_videoPlay 1s ease-in-out 0s infinite normal forwards;
 }
