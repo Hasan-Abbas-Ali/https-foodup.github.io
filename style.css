@@ -275,6 +275,10 @@ ul li a:hover {
   font-size: 20px;
 }
 
+.about_content h3 {
+  font-weight: 500;
+}
+
 /* ANIMATION */
 
 @keyframes anim_right {
