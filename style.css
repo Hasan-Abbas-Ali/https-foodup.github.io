@@ -299,6 +299,15 @@ ul li a:hover {
   cursor: pointer;
 }
 
+.about_img {
+  border-radius: 50px;
+  width: 50%;
+  overflow: hidden;
+  filter: grayscale(100%);
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
 /* ANIMATION */
 
 @keyframes anim_right {
