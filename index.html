@@ -21,7 +21,13 @@
     />
 
     <!-- Swiper Slider Cdn -->
-    <link rel="stylesheet" href="" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.css"
+      integrity="sha512-pmAAV1X4Nh5jA9m+jcvwJXFQvCBi3T17aZ1KWkqXr7g/O2YMvO8rfaa5ETWDuBvRq6fbDjlw4jHL44jNTScaKg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <header>
@@ -31,11 +37,11 @@
         </div>
 
         <ul class="menu">
-          <li><a href="#" class="active">Home</a></li>
-          <li><a href="#">Product</a></li>
-          <li><a href="#">Content Us</a></li>
-          <li><a href="#">FAQ</a></li>
-          <li><a href="#">Pages</a></li>
+          <li><a href="#" class="active" id="active">Home</a></li>
+          <li><a href="#about">Product</a></li>
+          <li><a href="#facts_container">Content Us</a></li>
+          <li><a href="#faq_sec">FAQ</a></li>
+          <li><a href="#testimonial">Pages</a></li>
           <li><button type="button">Partnership</button></li>
         </ul>
 
@@ -79,7 +85,7 @@
 
     <!-- About -->
 
-    <section class="about">
+    <section class="about" id="about">
       <div class="content about_content">
         <h2>About Swegger!</h2>
         <h1>Tasty Juice Is What We Deliver</h1>
@@ -126,7 +132,7 @@
 
     <!-- Facts Cards -->
 
-    <section class="facts_container">
+    <section class="facts_container" id="facts_container">
       <div class="facts_head_icon">
         <i class="fa-solid fa-leaf"></i>
       </div>
@@ -168,7 +174,7 @@
     </section>
 
     <!-- Testimonial -->
-    <section class="testimonial">
+    <section class="testimonial" id="testimonial">
       .
       <h1>
         Letius Convallis ac Netus Maximus Aliquet Urna mi Comndo Dignissim
@@ -209,7 +215,7 @@
             <button type="button" class="dark_btn">Find Out More</button>
           </div>
 
-          <div class="flavor_cards">
+          <div class="flavor_cards" id="flavor_cards">
             <!-- card 1 -->
             <div class="flavor_card">
               <img src="images/Apple_3png.png" alt="" class="flavor_card_img" />
@@ -255,7 +261,7 @@
 
         <div class="gallery_img2">
           <img src="images/ripe-oranges.jpg" alt="" />
-          <h1 class="typetext" class="typetext"></h1>
+          <h1 id="typetext" class="typetext"></h1>
         </div>
 
         <div class="gallery_img">
@@ -281,8 +287,347 @@
         </div>
       </div>
     </section>
-    <footer></footer>
 
+    <!-- OUR TEAM SECTION -->
+
+    <section class="our_team">
+      <div class="client_info">
+        <div class="client">
+          <div class="clint_img">
+            <img src="images/Team_4.jpg" alt="" />
+          </div>
+
+          <div class="hiddin_content">
+            <h1>Bramantyo</h1>
+            <h2>FOUNDER & CEO</h2>
+
+            <div class="icons">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-github"></i>
+              <i class="fa-brands fa-pinterest"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="client">
+          <div class="clint_img">
+            <img src="images/Team_6.jpg" alt="" />
+          </div>
+
+          <div class="hiddin_content">
+            <h1>Melanie</h1>
+            <h2>FOUNDER</h2>
+
+            <div class="icons">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-github"></i>
+              <i class="fa-brands fa-pinterest"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="client_det">
+        <h2>The Team</h2>
+        <h1>Meet Our Passionate Team</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
+          iusto incidunt
+        </p>
+        <button type="button">More Team</button>
+      </div>
+    </section>
+
+    <!-- REVIEW SECTION -->
+
+    <section class="review_container">
+      <div class="review_content">
+        <h2>Testimonial</h2>
+        <h1>What They're Saying</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque</p>
+      </div>
+
+      <div class="swiper review_slider">
+        <div class="swiper-wrapper">
+          <!-- slide 1 -->
+          <div class="swiper-slide">
+            <div class="client_review">
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque
+                fuga a voluptates
+              </p>
+              <div class="client_img_with_info">
+                <div class="client_img">
+                  <img src="images/R1.jpg" alt="" />
+                </div>
+
+                <div class="client_name">
+                  <h2>Hanna</h2>
+                  <p>Employee</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- slide 2 -->
+          <div class="swiper-slide">
+            <div class="client_review">
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque
+                fuga a voluptates
+              </p>
+              <div class="client_img_with_info">
+                <div class="client_img">
+                  <img src="images/R2.jpg" alt="" />
+                </div>
+
+                <div class="client_name">
+                  <h2>Hanna</h2>
+                  <p>Employee</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- slide 3 -->
+          <div class="swiper-slide">
+            <div class="client_review">
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque
+                fuga a voluptates
+              </p>
+              <div class="client_img_with_info">
+                <div class="client_img">
+                  <img src="images/R3.jpg" alt="" />
+                </div>
+
+                <div class="client_name">
+                  <h2>Hanna</h2>
+                  <p>Employee</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- slide 4 -->
+          <div class="swiper-slide">
+            <div class="client_review">
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque
+                fuga a voluptates
+              </p>
+              <div class="client_img_with_info">
+                <div class="client_img">
+                  <img src="images/R2.jpg" alt="" />
+                </div>
+
+                <div class="client_name">
+                  <h2>Maike</h2>
+                  <p>Employee</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ SECTION -->
+
+    <section class="faq_sec" id="faq_sec">
+      <div class="faq_content">
+        <h2>FAQ</h2>
+        <h1>Frequently Askrd Questions</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
+          eligendi nulla vero. Facilis nihil voluptate iure nemo.
+        </p>
+      </div>
+
+      <div class="faq_question">
+        <div class="service_contaner">
+          <!-- Q1 -->
+          <div class="service">
+            <div class="service_title">
+              <h2>Rutrum Subscript Magnis Mollis Pharetra Habitant.</h2>
+              <i class="fa-solid fa-chevron-down"></i>
+            </div>
+
+            <div class="service_description">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+                repellat quas molestiae aspernatur,
+              </p>
+            </div>
+          </div>
+
+          <!-- Q2 -->
+          <div class="service">
+            <div class="service_title">
+              <h2>Rutrum Subscript Magnis Mollis Pharetra Habitant.</h2>
+              <i class="fa-solid fa-chevron-down"></i>
+            </div>
+
+            <div class="service_description">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+                repellat quas molestiae aspernatur,
+              </p>
+            </div>
+          </div>
+
+          <!-- Q3 -->
+          <div class="service">
+            <div class="service_title">
+              <h2>Rutrum Subscript Magnis Mollis Pharetra Habitant.</h2>
+              <i class="fa-solid fa-chevron-down"></i>
+            </div>
+
+            <div class="service_description">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+                repellat quas molestiae aspernatur,
+              </p>
+            </div>
+          </div>
+
+          <!-- Q4 -->
+          <div class="service">
+            <div class="service_title">
+              <h2>Rutrum Subscript Magnis Mollis Pharetra Habitant.</h2>
+              <i class="fa-solid fa-chevron-down"></i>
+            </div>
+
+            <div class="service_description">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+                repellat quas molestiae aspernatur,
+              </p>
+            </div>
+          </div>
+
+          <!-- Q5 -->
+          <div class="service">
+            <div class="service_title">
+              <h2>Rutrum Subscript Magnis Mollis Pharetra Habitant.</h2>
+              <i class="fa-solid fa-chevron-down"></i>
+            </div>
+
+            <div class="service_description">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+                repellat quas molestiae aspernatur,
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BRANDINGS SECTION -->
+
+    <section class="brands" id="brands">
+      <div class="brand_head">
+        <h1>Our Partner</h1>
+      </div>
+
+      <div class="brands_img">
+        <img src="images/barnd1.png" alt="" />
+        <img src="images/barnd2.png" alt="" />
+        <img src="images/barnd3.png" alt="" />
+        <img src="images/barnd4.png" alt="" />
+        <img src="images/barnd5.png" alt="" />
+        <img src="images/barnd6.png" alt="" />
+        <img src="images/barnd7.png" alt="" />
+        <img src="images/barnd8.png" alt="" />
+      </div>
+    </section>
+
+    <!-- FOOTER SECTION -->
+
+    <footer>
+      <div class="footer_container">
+        <div class="footer_grid">
+          <div class="footer_link">
+            <div class="logo">
+              <img src="images/Logo.png" alt="" />
+            </div>
+
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
+              provident
+            </p>
+          </div>
+
+          <div class="footer_link">
+            <div class="link">
+              <a href="#active">Home</a>
+            </div>
+
+            <div class="link">
+              <a href="#about">About</a>
+            </div>
+
+            <div class="link">
+              <a href="#facts_container">Content Us</a>
+            </div>
+          </div>
+
+          <div class="footer_link">
+            <img src="images/3-Botol.png" alt="" class="foot_img" />
+          </div>
+
+          <div class="footer_link">
+            <div class="link">
+              <a href="#flavor_cards">Products</a>
+            </div>
+
+            <div class="link">
+              <a href="#faq_sec">FAQ</a>
+            </div>
+
+            <div class="link">
+              <a href="#brands">Partnership</a>
+            </div>
+          </div>
+
+          <div class="footer_link">
+            <h2>GET UPDATES, COUPONS, & MORE!</h2>
+            <input type="email" name="email" placeholder="Enter Your Email" />
+            <button type="submit">SIGN UP</button>
+          </div>
+        </div>
+
+        <div class="bottom_footer">
+          <div class="footer_icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+
+          <h2>Copyright 2024 All rights reserved by Hasan Abbas Ali.</h2>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Swiper slider JS -->
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"
+      integrity="sha512-Ysw1DcK1P+uYLqprEAzNQJP+J4hTx4t/3X2nbVwszao8wD+9afLjBQYjz7Uk4ADP+Er++mJoScI42ueGtQOzEA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- Typed js cdn  -->
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.js"
+      integrity="sha512-tQQXRDB2wEmuJGtFrmmoFYzNTq8StA1XJrfO0OQbbTxd9G0CwaTDL6/C1y805IlvBVrMwOqob1kf6r/2U5XXVg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <script src="script.js"></script>
   </body>
 </html>
